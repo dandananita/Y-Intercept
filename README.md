@@ -6,9 +6,9 @@
   
   $Y_{it}$: price of stock i at time point t,
   
-  $Z_{i}$: latent class of stock i, taking values {1,2,...,S} based on its corresponding sector
+  $Z_{i}$: latent class of stock i, taking values {1,2,...,S} based on its corresponding sector,
   
-  $X_{it}$: existing covariates of of stock i at time point t, including volume and mkt_cap
+  $X_{it}$: existing covariates of of stock i at time point t, including volume and mkt_cap.
 
   
 - Latent Class Model: $$[Y_{it}|Z_{i}=s] = \mu_s + \beta_s' X_{it} +\delta_{it}$$
@@ -45,9 +45,8 @@
 ## Discussion
 
   Due to time limitation, only latent class model with linear effect is considered. Further expansion could be
-  - autoregression effect from time series point of view
-  - more covariates and information for the stocks, interest and market level
-  - truncational effect of the covariates
-  - functional effect of covariates
-  - potential factors based on additional information
+  - autoregression effect from time series point of view,
+  - more covariates and information for the stocks, interest and market level,
+  - truncational/functional effect of the covariates,
+  - potential factors based on additional information.
   
