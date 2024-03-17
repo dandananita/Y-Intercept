@@ -63,8 +63,8 @@ for (i in 1:N) {
 }
 # 1332 JT example trace
 plot(x=c(1:NT), y[1,],xlab = 'time', ylab = '1332 JT')
-line(x=c(1:NT), est_y[1,])
 
+# use mclust functions
 # Load required packages
 #library(mclust)
 #data <- cbind(as.vector(y), matrix(as.vector(x), ncol = NZ))
